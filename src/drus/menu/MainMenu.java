@@ -13,6 +13,9 @@ import java.util.Scanner;
 
 public class MainMenu implements Menu {
     private Animals animals;
+    public MainMenu (Animals animals) {
+        this.animals = animals;
+    }
 
     @Override
     public void processInput(Scanner scanner) {

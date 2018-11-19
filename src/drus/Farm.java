@@ -2,6 +2,7 @@ package drus;
 
 import drus.menu.MainMenu;
 import drus.menu.Menu;
+import drus.animal.Animals;
 
 import java.util.Scanner;
 
