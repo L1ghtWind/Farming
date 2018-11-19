@@ -1,5 +1,6 @@
 package drus.menu;
 
+import drus.animal.Animal;
 import drus.animal.Animals;
 
 import java.util.Scanner;
@@ -40,7 +41,7 @@ public class AnimalSelectionMenu implements Menu {
             new AnimalActionsMenu(animals.getSheep().getId(),animals,this).processInput(scanner);
         }
         else if (z == 4) {
-            new MainMenu().processInput(scanner);
+            new MainMenu(animals).processInput(scanner);
         }
         else {
             this.processInput(scanner);
