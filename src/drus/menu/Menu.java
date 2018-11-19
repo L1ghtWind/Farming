@@ -1,4 +1,4 @@
-package drus;
+package drus.menu;
 
 import java.util.Scanner;
 

@@ -1,7 +1,11 @@
-package drus;
+package drus.animal;
 
 public class Cow extends Animal {
     private String name = "Коровка";
+
+    public Cow(int id) {
+        super(id);
+    }
 
     @Override
     public String toString() {
