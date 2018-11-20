@@ -16,6 +16,9 @@ public class MainMenu implements Menu {
     public MainMenu (Animals animals) {
         this.animals = animals;
     }
+    public MainMenu() {
+        this(new Animals());
+    }
 
     @Override
     public void processInput(Scanner scanner) {
